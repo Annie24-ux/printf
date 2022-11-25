@@ -63,7 +63,7 @@ typedef struct specifier
 
 } specifier_t;
 
-/* _put.c module */
+/* _puts.c module */
 int _puts(char *str);
 int _putchar(int c);
 
@@ -110,7 +110,7 @@ void init_params(params_t *params, va_list ap);
 /* string_fields.c modoule */
 char *get_precision(char *p, params_t *params, va_list ap);
 
-/* _prinf.c module */
+/* _printf.c module */
 int _printf(const char *format, ...);
 
 #endif /*_MAIN_H_*/
